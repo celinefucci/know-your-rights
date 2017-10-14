@@ -7,21 +7,9 @@ import { DetailPage } from '../detail/detail';
   templateUrl: 'home.html'
 })
 export class HomePage {
-  items: any[] = [];
 
   constructor(public navCtrl: NavController) {
-    this.item = [];
-    for(let i = 0; i < 10; i++) {
-      this.items.push({
-        text: 'Item ' + i,
-        id: i
-      });
-    }
+
   }
 
-  itemSelected(item) {
-    this.navCtrl.push(DetailPage, {
-      item: item
-    });
-  }
 }

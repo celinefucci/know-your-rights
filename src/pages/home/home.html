@@ -1,13 +1,9 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>Home</ion-title>
+  <!-- Hides the back button when continuing to the home page -->
+  <ion-navbar hideBackButton="true">
+    <ion-title>Introduction</ion-title>
   </ion-navbar>
 </ion-header>
-
-<ion-content>
-  <ion-list>
-    <button ion-item *ngFor="let item of items" (click)="itemSelected(item)">
-      {{ item.text }}
-    </button>
-  </ion-list>
+<ion-content padding class="home">
+  This is my super awesome home page.
 </ion-content>
