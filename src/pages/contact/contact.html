@@ -1,17 +1,31 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar hideBackButton="true">
     <ion-title>
       Contact
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content>
-  <ion-list>
-    <ion-list-header>Follow us on Twitter</ion-list-header>
-    <ion-item>
-      <ion-icon name="ionic" item-left></ion-icon>
-      @ionicframework
-    </ion-item>
-  </ion-list>
+<ion-content padding>
+  <div class="police-contact-card" (click)="openModal()">
+    <img src="assets/images/police-badge.png" class="home-image"/>
+    <div class="home-card">
+      <h2 class="office-text">University Police</h2>
+      <h4 class="contact-text">2 contacts</h4>
+    </div>
+  </div>
+  <div class="nine-card">
+    <img src="assets/images/hierarchical.png" class="home-image"/>
+    <div class="home-card">
+      <h2 class="office-text">Title IX Coordinators</h2>
+      <h4 class="contact-text">2 contacts</h4>
+    </div>
+  </div>
+  <div class="residential-card">
+    <img src="assets/images/house.png" class="home-image"/>
+    <div class="home-card">
+      <h2 class="office-text">Residential Life</h2>
+      <h4 class="contact-text">2 contacts</h4>
+    </div>
+  </div>
 </ion-content>

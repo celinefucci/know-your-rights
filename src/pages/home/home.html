@@ -1,9 +1,26 @@
 <ion-header>
   <!-- Hides the back button when continuing to the home page -->
   <ion-navbar hideBackButton="true">
-    <ion-title>Introduction</ion-title>
+    <ion-title>Home</ion-title>
   </ion-navbar>
 </ion-header>
 <ion-content padding class="home">
-  This is my super awesome home page.
+  <div class="rights-card" (click)="continueToRights()">
+    <img src="assets/images/file.png" class="home-image"/>
+    <div class="home-card">
+      <h3 class="home-text">Bill of Rights</h3>
+    </div>
+  </div>
+  <div class="contacts-card" (click)="continueToContacts()">
+    <img src="assets/images/contacts.png" class="home-image"/>
+    <div class="home-card">
+      <h3 class="home-text">Contacts</h3>
+    </div>
+  </div>
+  <div class="tips-card" (click)="continueToTips()">
+    <img src="assets/images/info.png" class="home-image"/>
+    <div class="home-card">
+      <h3 class="home-text">Tips</h3>
+    </div>
+  </div>
 </ion-content>

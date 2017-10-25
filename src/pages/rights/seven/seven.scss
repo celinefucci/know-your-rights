@@ -1,0 +1,27 @@
+page-seven {
+
+}
+
+.repeat-image {
+  max-width: 60%;
+  max-height: 60%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 10px;
+}
+
+.repeat-card {
+  margin-top: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  background: #C8F7C5;
+  text-align: center;
+  padding: 10px 16px;
+}
+
+.repeat-text {
+  font-weight: 300;
+  font-size: 20px;
+}
