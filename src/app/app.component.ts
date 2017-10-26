@@ -29,12 +29,14 @@ export class MyApp {
       this.storage.get('SlidesPage').then((result) => {
 
         if(result) {
-          this.rootPage = TabsPage;
-        }
-        else {
           this.rootPage = SlidesPage;
           this.storage.set('SlidesPage', true);
+          //this.rootPage = TabsPage;
         }
+        // else {
+        //   this.rootPage = SlidesPage;
+        //   this.storage.set('SlidesPage', true);
+        // }
 
         this.loader.dismiss();
 
