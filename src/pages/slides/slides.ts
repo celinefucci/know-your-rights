@@ -1,13 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { HomePage } from '../home/home';
 
-/**
- * Generated class for the SlidesPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
+import { TabsPage } from '../tabs/tabs';
+
 
 @IonicPage()
 @Component({
@@ -20,8 +15,8 @@ export class SlidesPage {
 
   }
 
-  continueToHome() {
-    this.navCtrl.push(HomePage);
+  goToHome() {
+    this.navCtrl.setRoot(TabsPage);
   }
 
   slides = [
@@ -38,7 +33,7 @@ export class SlidesPage {
     {
       title: "Contacts",
       description: "View contact information of important people, right at your fingertips.",
-      image: "assets/images/contacts.png",
+      image: "assets/images/phone-receiver.png",
     },
     {
       title: "Tips",

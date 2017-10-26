@@ -9,5 +9,8 @@ import { SlidesPage } from './slides';
   imports: [
     IonicPageModule.forChild(SlidesPage),
   ],
+  exports: [
+    SlidesPage
+  ]
 })
 export class SlidesPageModule {}
