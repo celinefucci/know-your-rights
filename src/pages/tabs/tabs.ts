@@ -11,11 +11,6 @@ import { TipsPage } from '../tips/tips';
 })
 export class TabsPage {
 
-  // tab1Root = HomePage;
-  // tab2Root = RightsPage;
-  // tab3Root = ContactPage;
-  // tab4Root = TipsPage;
-
   tab1Root: any = HomePage;
   tab2Root: any = RightsPage;
   tab3Root: any = ContactPage;

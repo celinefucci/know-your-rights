@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavParams, ViewController } from 'ionic-angular';
+import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { PopoverController } from 'ionic-angular';
 import { ConfidentialPage } from '../confidential/confidential';
 import { PrivatePage } from '../private/private';
@@ -7,13 +7,12 @@ import { PrivatePage } from '../private/private';
 
 @IonicPage()
 @Component({
-  selector: 'page-police',
-  templateUrl: 'police.html',
+  selector: 'page-reslife',
+  templateUrl: 'reslife.html',
 })
-export class PolicePage {
+export class ReslifePage {
 
-  constructor(public navParams: NavParams, public viewCtrl: ViewController, public popoverCtrl: PopoverController) {
-
+  constructor(public navCtrl: NavController, public navParams: NavParams, public popoverCtrl: PopoverController) {
   }
 
   presentPopover() {
@@ -29,8 +28,7 @@ export class PolicePage {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad PolicePage');
+    console.log('ionViewDidLoad ReslifePage');
   }
-
 
 }

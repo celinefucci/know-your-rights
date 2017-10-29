@@ -21,6 +21,12 @@ import { TenPage } from '../pages/rights/ten/ten';
 import { ElevenPage } from '../pages/rights/eleven/eleven';
 import { PolicePage } from '../pages/police/police';
 import { TipsPage } from '../pages/tips/tips';
+import { ConfidentialPage } from '../pages/confidential/confidential';
+import { PrivatePage } from '../pages/private/private';
+import { TninePage } from '../pages/tnine/tnine';
+import { HealthPage } from '../pages/health/health';
+import { ReslifePage } from '../pages/reslife/reslife';
+import {SavrPage } from '../pages/savr/savr';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -45,7 +51,13 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     TenPage,
     ElevenPage,
     PolicePage,
-    TipsPage
+    TipsPage,
+    ConfidentialPage,
+    PrivatePage,
+    TninePage,
+    HealthPage,
+    ReslifePage,
+    SavrPage
   ],
   imports: [
     BrowserModule,
@@ -72,7 +84,13 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     TenPage,
     ElevenPage,
     PolicePage,
-    TipsPage
+    TipsPage,
+    ConfidentialPage,
+    PrivatePage,
+    TninePage,
+    HealthPage,
+    ReslifePage,
+    SavrPage
   ],
   providers: [
     StatusBar,

@@ -1,25 +1,63 @@
 
 <ion-header>
   <ion-navbar>
-    <ion-title>Modals</ion-title>
+    <ion-title>Police</ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content>
+<ion-content padding>
 
-  <ion-list>
-    <ion-list-header>
-      Hobbits
-    </ion-list-header>
-    <a ion-item (click)="openModal({charNum: 0})">
-      Gollum
-    </a>
-    <a ion-item (click)="openModal({charNum: 1})">
-      Frodo Baggins
-    </a>
-    <a ion-item (click)="openModal({charNum: 2})">
-      Sam
-    </a>
-  </ion-list>
+  <!-- Contact one -->
+  <div class="po-one-cir">
+    <h2 class="po-one-cir-text">UP</h2>
+  </div>
+
+  <div>
+    <h2 class="po-one-text">University Police</h2>
+    <ion-icon name="ios-pin-outline" class="po-one-pin-icon"></ion-icon>
+    <h2 class="po-one-loc-text">Kunsela Hall</h2>
+    <ion-icon name="ios-call-outline" class="po-one-phone-icon"></ion-icon>
+    <h2 class="po-one-num-text">315-792-7222</h2>
+    <ion-icon name="ios-mail-outline" class="po-one-mail-icon"></ion-icon>
+    <h2 class="po-one-mail-text">upolice@sunyit.edu</h2>
+  </div>
+
+  <ion-icon name="more" (click)="openPopover($event)" class="po-one-popover"></ion-icon>
+  <h2 class="po-one-res-text">Private Resource</h2>
+  <hr>
+
+  <!-- Contact two -->
+  <div class="po-two-cir">
+    <h2 class="po-two-cir-text">UCPD</h2>
+  </div>
+
+  <div>
+    <h2 class="po-one-text">Utica City Police Department</h2>
+    <ion-icon name="ios-pin-outline" class="po-one-pin-icon"></ion-icon>
+    <h2 class="po-one-loc-text">413 Oriskany Street West Utica, NY 13502</h2>
+    <ion-icon name="ios-call-outline" class="po-one-phone-icon"></ion-icon>
+    <h2 class="po-one-num-text">315-753-3301</h2>
+  </div>
+
+  <ion-icon name="more" (click)="openPopover($event)" class="po-one-popover"></ion-icon>
+  <h2 class="po-one-res-text">Private Resource</h2>
+  <hr>
+  <hr>
+
+  <!-- Contact three -->
+  <div class="po-three-cir">
+    <h2 class="po-two-cir-text">NHPD</h2>
+  </div>
+
+  <div>
+    <h2 class="po-one-text">New Hartford Town Police Department</h2>
+    <ion-icon name="ios-pin-outline" class="po-one-pin-icon"></ion-icon>
+    <h2 class="po-one-loc-text">32 Kellogg Road New Hartford, NY 13413</h2>
+    <ion-icon name="ios-call-outline" class="po-one-phone-icon"></ion-icon>
+    <h2 class="po-one-num-text">315-724-7111</h2>
+  </div>
+
+  <ion-icon name="more" (click)="openPopover($event)" class="po-one-popover"></ion-icon>
+  <h2 class="po-one-res-text">Private Resource</h2>
 
 </ion-content>

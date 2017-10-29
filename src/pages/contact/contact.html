@@ -1,5 +1,5 @@
 <ion-header>
-  <ion-navbar hideBackButton="true">
+  <ion-navbar>
     <ion-title>
       Contact
     </ion-title>
@@ -7,25 +7,44 @@
 </ion-header>
 
 <ion-content padding>
-  <div class="police-contact-card" (click)="openModal()">
+  <div class="police-contact-card" (click)="goToPolice()">
     <img src="assets/images/police-badge.png" class="home-image"/>
     <div class="home-card">
-      <h2 class="office-text">University Police</h2>
-      <h4 class="contact-text">2 contacts</h4>
+      <h2 class="office-text">Police</h2>
+      <h4 class="contact-text">3 contacts</h4>
     </div>
   </div>
-  <div class="nine-card">
+
+  <div class="nine-card" (click)="goToNine()">
     <img src="assets/images/hierarchical.png" class="home-image"/>
     <div class="home-card">
       <h2 class="office-text">Title IX Coordinators</h2>
       <h4 class="contact-text">2 contacts</h4>
     </div>
   </div>
-  <div class="residential-card">
+
+  <div class="nurse-card" (click)="goToHealth()">
+    <img src="assets/images/nurse.png" class="home-image"/>
+    <div class="home-card">
+      <h2 class="office-text">Mental Health Counselors/Nurses</h2>
+      <h4 class="contact-text">3 contacts</h4>
+    </div>
+  </div>
+
+  <div class="residential-card" (click)="goToRes()">
     <img src="assets/images/house.png" class="home-image"/>
     <div class="home-card">
       <h2 class="office-text">Residential Life</h2>
-      <h4 class="contact-text">2 contacts</h4>
+      <h4 class="contact-text">1 contact</h4>
     </div>
   </div>
+
+  <div class="other-card" (click)="goToOther()">
+    <img src="assets/images/clipboard.png" class="home-image"/>
+    <div class="home-card">
+      <h2 class="office-text">Other (SUNY SAVR)</h2>
+      <h4 class="contact-text">6 contacts</h4>
+    </div>
+  </div>
+
 </ion-content>

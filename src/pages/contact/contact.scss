@@ -26,12 +26,28 @@ page-contact {
   background-image: linear-gradient( 135deg, #69FF97 10%, #00E4FF 100%);
 }
 
+.nurse-card {
+  margin-top: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
 .residential-card {
   margin-top: 20px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   border-radius: 5px;
   background-image: linear-gradient( 135deg, #FD6E6A 10%, #FFC600 100%);
+}
+
+.other-card {
+  margin-top: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  background-image: linear-gradient(-225deg, #FFE29F 0%, #FFA99F 48%, #FF719A 100%);
 }
 
 .home-card {
