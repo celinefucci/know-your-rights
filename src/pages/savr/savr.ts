@@ -15,7 +15,7 @@ export class SavrPage {
   }
 
   presentPopover() {
-    let popover = this.popoverCtrl.create(MyPopOverPage);
+    let popover = this.popoverCtrl.create(ConfidentialPage);
     popover.present();
   }
 

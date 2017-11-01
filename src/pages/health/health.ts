@@ -15,7 +15,7 @@ export class HealthPage {
   }
 
   presentPopover() {
-    let popover = this.popoverCtrl.create(MyPopOverPage);
+    let popover = this.popoverCtrl.create(ConfidentialPage);
     popover.present();
   }
 

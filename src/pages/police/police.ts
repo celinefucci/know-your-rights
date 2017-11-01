@@ -17,7 +17,7 @@ export class PolicePage {
   }
 
   presentPopover() {
-    let popover = this.popoverCtrl.create(MyPopOverPage);
+    let popover = this.popoverCtrl.create(PrivatePage);
     popover.present();
   }
 
