@@ -13,12 +13,6 @@ import { TenPage } from '../rights/ten/ten';
 import { ElevenPage } from '../rights/eleven/eleven';
 
 
-/**
- * Generated class for the RightsPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
 
 @IonicPage()
 @Component({
