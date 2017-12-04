@@ -2,7 +2,38 @@ page-tips {
 
 }
 
-.pres {
-  width: 350px;
-  height: 520px;
+.dv-card-one {
+  background: #ecaa00;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 5px;
+}
+
+.dv-card-two {
+  background: #002c73;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 2px;
+}
+
+.dv-title {
+  font-size: 24px;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.dv-desc {
+  font-size: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.tips {
+  text-align: center;
+}
+
+.tip-button {
+  font-size: 14px;
 }

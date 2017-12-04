@@ -22,17 +22,17 @@ import { ElevenPage } from '../rights/eleven/eleven';
 export class RightsPage {
 
   items = [
-    { title: 'Item 1', component: OnePage },
-    { title: 'Item 2', component: TwoPage },
-    { title: 'Item 3', component: ThreePage },
-    { title: 'Item 4', component: FourPage },
-    { title: 'Item 5', component: FivePage },
-    { title: 'Item 6', component: SixPage },
-    { title: 'Item 7', component: SevenPage },
-    { title: 'Item 8', component: EightPage },
-    { title: 'Item 9', component: NinePage },
-    { title: 'Item 10', component: TenPage },
-    { title: 'Item 11', component: ElevenPage }
+    { title: 'Reporting', component: OnePage },
+    { title: 'Domestic/Dating Violence', component: TwoPage },
+    { title: 'Disclosing Crimes', component: ThreePage },
+    { title: 'Participation Process', component: FourPage },
+    { title: 'Fair Treatment & Counseling', component: FivePage },
+    { title: 'Crime & Violation Fault', component: SixPage },
+    { title: 'Describing the Incident', component: SevenPage },
+    { title: 'Protection From Retaliation', component: EightPage },
+    { title: 'Appeal Access', component: NinePage },
+    { title: 'Advisor Accomodations', component: TenPage },
+    { title: 'Civil Rights & Religion', component: ElevenPage }
   ];
 
   public openPage(item: any): void {

@@ -22,22 +22,22 @@ export class SlidesPage {
   slides = [
     {
       title: "Welcome to Know Your Rights!",
-      description: "With this application, you can easily view information regarding Title IX. The best part is, you can view it privately.",
+      description: "With this application, you can view information regarding Title IX easily and privately. The Students' Bill of Rights, Contacts, and Tips are the three main components of the application.",
       image: "assets/images/welcome.png",
     },
     {
       title: "Students' Bill of Rights",
-      description: "Need clarification on your rights as a student? No worries, we've got you covered.",
+      description: "A document that outlines the rights of victims and survivors. This includes victims/survivors of sexual assault, domestic violence, dating violence, and stalking.",
       image: "assets/images/file.png",
     },
     {
       title: "Contacts",
-      description: "View contact information of important people, right at your fingertips.",
+      description: "View contact information of important resources at SUNY Poly and in the Utica area. This includes Title IX Coordinators, Mental Health Counselors, and University Police, just to name a few.",
       image: "assets/images/phone-receiver.png",
     },
     {
       title: "Tips",
-      description: "Do you ever wish you had some useful tips?",
+      description: "View important terms and definitions related to Title IX such as consent, sexual harassment/violence, and drug and alcohol amnesty.",
       image: "assets/images/info.png",
     }
   ];
